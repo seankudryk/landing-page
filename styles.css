@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .top-container {
@@ -9,39 +10,98 @@
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20%;
+    height: 25vh;
 }
 
 .top-content-container {
+    /*border: 2px solid yellow;*/
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 50%;
+    width: 75%;
+    gap: 25px;
 }
-
+    
 .nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    width: 75%;
+    padding-top: 10px;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-subtext, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    display: flex;
+    background-color: #808590;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 1;
 }
 
 ul {
     display: flex;
-    text-decoration: none;
     list-style-type: none;
+    color: white;
     gap: 20px;
 }
 
-.hero-image {
-    background-color: grey;
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#sign-up-button {
+    width: 100px;
+    height: 25px;
+}
+
+.information-container {
+    height: 25vh;
 }
 
 .information-text {
     text-align: center;
+    padding: 40px 0px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
 }
 
 .image-container {
@@ -49,7 +109,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .image {
@@ -65,9 +125,35 @@ ul {
     width: 150px;
 }
 
-button {
-    background-color: #3882F6;
-    border: none;
-    color: white;
-    border-radius: 5px;
+.quote-container {
+    height: 25vh;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text-container {
+    width: 60%;
+}
+
+.signature-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.signature-text {
+    font-weight: 700;
 }
