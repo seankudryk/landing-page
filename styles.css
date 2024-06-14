@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-container {
@@ -25,6 +25,7 @@
     height: 50%;
     width: 75%;
     gap: 25px;
+    min-width: 900px;
 }
     
 .nav-container {
@@ -108,15 +109,14 @@ button {
 .image-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
 }
 
 .image {
-    height: 10%;
-    width: 10%;
     text-align: center;
+    width: 15%;
+    min-width: 150px;
 }
 
 .information-image {
@@ -191,4 +191,5 @@ button {
 
 .copyright-text {
     color: white;
+    text-decoration: underline;
 }
