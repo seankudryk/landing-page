@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 20%;
-    height: 25vh;
+    height: 22.5vh;
 }
 
 .top-content-container {
@@ -93,7 +93,8 @@ button {
 }
 
 .information-container {
-    height: 25vh;
+    height: 22.5vh;
+    margin-bottom: 20px;
 }
 
 .information-text {
@@ -113,8 +114,8 @@ button {
 }
 
 .image {
-    height: 150px;
-    width: 150px;
+    height: 10%;
+    width: 10%;
     text-align: center;
 }
 
@@ -126,7 +127,7 @@ button {
 }
 
 .quote-container {
-    height: 25vh;
+    height: 22.5vh;
     background-color: #E5E7EB;
 }
 
@@ -159,7 +160,7 @@ button {
 }
 
 .bottom-container {
-    height: 25vh;
+    height: 22.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,4 +179,16 @@ button {
 
 .white-border {
     border: 2px solid white;
+}
+
+.footer-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #1F2937;
+}
+
+.copyright-text {
+    color: white;
 }
